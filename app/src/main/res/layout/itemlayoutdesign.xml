@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="10dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/idOut"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_weight="0.35"
+                android:gravity="center_vertical"
+                android:paddingLeft="5.0dp" />
+
+            <TextView
+                android:id="@+id/dateout"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_weight="0.60"
+                android:gravity="center_vertical"
+                android:paddingLeft="5.0dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/nameOut"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_weight="0.85"
+                android:gravity="center_vertical"
+                android:paddingLeft="5.0dp"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/descOut"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_weight="0.85"
+                android:gravity="center_vertical"
+                android:inputType="textMultiLine"
+                android:paddingLeft="5.0dp"
+                android:scrollbars="vertical"
+                android:textSize="18sp" />
+        </TableRow>
+
+    </TableLayout>
+</androidx.cardview.widget.CardView>

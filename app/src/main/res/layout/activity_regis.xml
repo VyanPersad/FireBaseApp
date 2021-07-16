@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckgrnddesign"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".RegisActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5.0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dp"
+            android:ems="10"
+            android:gravity="center"
+            android:text="Firebase App Registration"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/emailsup"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="5.0dp"
+            android:background="@drawable/btndesign"
+            android:ems="10"
+            android:gravity="start|center_vertical"
+            android:hint="Input Email"
+            android:inputType="textPersonName"
+            android:paddingLeft="35dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/passwordsup"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="5.0dp"
+            android:background="@drawable/btndesign"
+            android:ems="10"
+            android:gravity="start|center_vertical"
+            android:hint="Enter Password"
+            android:inputType="textPersonName"
+            android:paddingLeft="35dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <Button
+            android:id="@+id/signUp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/btndesign"
+            android:text="Sign In"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FFFFFF"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</LinearLayout>
